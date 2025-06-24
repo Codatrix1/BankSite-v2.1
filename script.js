@@ -8,6 +8,8 @@ const overlay = document.querySelector(".overlay");
 const btnCloseModal = document.querySelector(".btn--close-modal");
 const btnsOpenModal = document.querySelectorAll(".btn--show-modal");
 
+console.log("Error Log coming from using the BetterBugs CDN Script for console logs");
+
 const openModal = function (event) {
   event.preventDefault();
 
